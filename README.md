@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 22/11/2024
+## Register Number: 24900042
+## Name: DHANUSH M.D
 ## Problem Title
 Implementation of the Alumni Association platform for the University/Institute.
 ## Problem Description
@@ -10,16 +10,112 @@ Background: Alumni associations play a pivotal role in fostering lifelong connec
 Government of Gujarat
 
 ## Idea
+1.Centralized Alumni Networking:
+ A platform for alumni to register, connect, and network with fellow alumni and current students through searchable directories and mentorship opportunities.
+
+2.Event Management & Updates:
+ Organize reunions, webinars, and workshops with easy event registration, and keep users informed about university news and alumni success stories.
+
+3.Professional Growth:
+ Include a job board for posting and browsing career opportunities, along with discussion forums to share industry insights and resources.
+
+4.Donation & Fundraising:
+ Provide a secure portal for alumni to contribute to scholarships, infrastructure, or social causes, supporting institutional growth.
+
+5.Advanced Technology Stack:
+ Build using modern technologies like React.js, Node.js, and PostgreSQL, with secure authentication via Firebase and cloud storage for scalability and reliability
 
 
 ## Proposed Solution / Architecture Diagram
+![Screenshot 2024-11-22 155815](https://github.com/user-attachments/assets/cf5c26e5-e8cb-410a-99d6-caac36160bc9)
 
 
 ## Use Cases
+Use Case: Alumni Association Platform
+Actors:
+* Alumni
+* Students
+* Admin
+Description:
+A platform for alumni and students to connect, share opportunities, manage events, and support the university through donations.
+
+Main Use Cases:
+
+
+
+
+1.Alumni Networking
+
+* Alumni register, create profiles, and connect with others.
+* Students network and seek mentorship.
+
+
+
+2.Event Management
+
+* Admin creates events (e.g., reunions, webinars).
+* Users register and receive updates.
+
+
+
+
+3.Professional Growth
+
+* Alumni post jobs and offer mentorship.
+* Students apply for jobs and gain industry insights.
+
+
+
+4.Donation & Fundraising
+
+*Alumni donate to scholarships or university projects.
+*Admin tracks contributions.
+
+
+
+5.Advanced Tech Stack
+* Frontend: React.js
+* Backend: Node.js, Firebase Authentication
+* Database: PostgreSQL
+* Hosting: Cloud storage for scalability
+Outcome:
+* Enhanced networking, career opportunities, and event participation.
+* Successful fundraising and secure platform.
+
 
 
 ## Technology Stack
-
+Frontend:
+* React.js: For building the user interface.
+Redux: For state management
+* Bootstrap/Material UI: For responsive design.
+Backend:
+* Node.js & Express.js: For backend logic and APIs.
+*nFirebase Authentication: For secure login.
+Database:
+* PostgreSQL: For data storage.
+* Sequelize: ORM for database management.
+Cloud & Hosting:
+* AWS or Heroku: For hosting and scalability.
+Notifications:
+* Twilio & SendGrid: For SMS and email notifications.
+Security:
+* JWT: For secure authentication.
 
 ## Dependencies
+Centralized Alumni Networking - 15 days
+
+
+
+Event Management & Updates - 10 days
+
+
+Professional Growth - 12 days
+
+
+Donation & Fundraising - 8 days
+
+
+Budget - ₹50,000
+
 
